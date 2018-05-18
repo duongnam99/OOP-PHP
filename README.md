@@ -14,9 +14,9 @@ Sử  dụng : Khi muốn lớp con tuân thủ theo các phương thức đư�
 
 
 ## Sự khác biệt giữa public, private và protected
-  - Private : Ta không thể truy xuất tới thành phần private ở lớp con hoặc ở bên ngoài lớp
-  - Protected : Chỉ cho phép truy xuất nội bộ trong lớp đó và lớp kế thừa, riêng ở bên ngoài lớp sẽ không truy xuất được, mức protected thường được sử dụng cho những phương thức và thuộc tính có khả năng bị lớp con định nghĩa lại
-  - Public : Có thể truy cập tới các phương thức và thuộc tính ở bất cứ đâu, dù trong nội bộ của lớp hay ở lớp con hay cả bên ngoài lớp đều được
+Private | Protected | Public
+--------|-----------|--------
+Ta không thể truy xuất tới thành phần private ở lớp con hoặc ở bên ngoài lớp | Chỉ cho phép truy xuất nội bộ trong lớp đó và lớp kế thừa, riêng ở bên ngoài lớp sẽ không truy xuất được, mức protected thường được sử dụng cho những phương thức và thuộc tính có khả năng bị lớp con định nghĩa lại | Có thể truy cập tới các phương thức và thuộc tính ở bất cứ đâu, dù trong nội bộ của lớp hay ở lớp con hay cả bên ngoài lớp đều được
 ## Từ khóa Final : 
   - Để chống kế thừa : Muốn tước quyền kế thừa cho một class, đặt từ kháo Final trước class đó 
   - Chống Override : Khi muốn một phương thức không được Override từ các phương thức của class khác. Đặt từ khóa final trước tên phương thức đó
