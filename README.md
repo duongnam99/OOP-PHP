@@ -13,7 +13,7 @@ Thực hiện bởi [Nguyễn Phi Huy](https://github.com/huynhan147)
   - Lớp abstract sẽ định nghĩa các phương thức mà từ đó các lớp con sẽ kế thừa nó và OVERWITE lại
   - Tất cả các phương thức của lớp abstract đều phải được khai báo là abstract và phải ở mức protected và public không được ở mức private
   - Lớp Abstract có thể có thuộc tính nhưng thuộc tính không được khai báo là abstract và không thể khởi tạo một đối tượng của lớp abstract
-  - Lớp Abstract cũng có tính kế thừa. abstract A kế thừa abstract B thì một lớp nào đó kế thừa B phải viết lại toàn bộ các phương thức của  abstract A và B
+  - Lớp Abstract cũng có tính kế thừa. abstract A kế thừa abstract B thì một lớp nào đó kế thừa A phải viết lại toàn bộ các phương thức của  abstract A và B
   - Một class chỉ có thể kế thừa một lớp abstract
 * Trait : 
   - Traits hiểu đơn giản là một nhóm các methods mà bạn muốn include nó trong một class khác
